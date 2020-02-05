@@ -45,6 +45,15 @@ print("AVG GRADE:", avg_grade)
 # use for loop
 
 
+#Looping through all rows.
+#my_grades = []
+
+for index, row in grades.iterrows():
+    print(index)
+    print(row["final_grade"])
+    print("-----")
+    #my_grades.append(row["final_grade"])
+
 #====================================
 #csv_filepath = "            "
 #stats = pandas.read_csv(csv_filepath)
